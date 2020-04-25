@@ -13,6 +13,8 @@
 		CB8843B0245481C2007383AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8843AE245481C2007383AA /* Main.storyboard */; };
 		CB8843B2245481C3007383AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8843B1245481C3007383AA /* Assets.xcassets */; };
 		CB8843B5245481C3007383AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8843B3245481C3007383AA /* LaunchScreen.storyboard */; };
+		CB8843BD2454835E007383AA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8843BC2454835E007383AA /* Student.swift */; };
+		CB8843BF245484F8007383AA /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8843BE245484F8007383AA /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CB8843B1245481C3007383AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8843B4245481C3007383AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB8843B6245481C3007383AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8843BC2454835E007383AA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		CB8843BE245484F8007383AA /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CB8843A8245481C2007383AA /* AppDelegate.swift */,
 				CB8843AA245481C2007383AA /* SceneDelegate.swift */,
 				CB8843AC245481C2007383AA /* ViewController.swift */,
+				CB8843BE245484F8007383AA /* CustomTableViewCell.swift */,
+				CB8843BC2454835E007383AA /* Student.swift */,
 				CB8843AE245481C2007383AA /* Main.storyboard */,
 				CB8843B1245481C3007383AA /* Assets.xcassets */,
 				CB8843B3245481C3007383AA /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8843AD245481C2007383AA /* ViewController.swift in Sources */,
+				CB8843BF245484F8007383AA /* CustomTableViewCell.swift in Sources */,
 				CB8843A9245481C2007383AA /* AppDelegate.swift in Sources */,
 				CB8843AB245481C2007383AA /* SceneDelegate.swift in Sources */,
+				CB8843BD2454835E007383AA /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
